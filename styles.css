@@ -1,5 +1,9 @@
 .canvas {
   background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 1120px;
+  flex-wrap: wrap;
 }
 
 .block {
