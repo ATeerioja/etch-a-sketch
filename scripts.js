@@ -4,8 +4,8 @@ const button = document.querySelector("#canvasButton");
 button.addEventListener("click", buttonPress)
 
 function buttonPress() {
-  let size = prompt("How many pixels on canvas", "16");
-  if(Number(size)) {
+  let size = prompt("How many pixels per side (less than 100)", "16");
+  if(Number(size) && Number(size) < 100) {
     let blocksPerWidth = Number(size);
     canvasConstructor(blocksPerWidth);
   } else {
