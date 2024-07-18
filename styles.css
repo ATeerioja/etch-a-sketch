@@ -1,5 +1,5 @@
 .canvas {
-  background-color: red;
+  background-color: pink;
   display: flex;
   justify-content: center;
   width: 1120px;
@@ -11,4 +11,5 @@
   height: 50px;
   width: 50px;
   margin: 10px;
+
 }
